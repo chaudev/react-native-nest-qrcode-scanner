@@ -1,14 +1,12 @@
-# react-native-qrcode-scanner
+# react-native-nest-qrcode-scanner
 
-[![npm version](https://badge.fury.io/js/react-native-qrcode-scanner.svg)](https://badge.fury.io/js/react-native-qrcode-scanner) [![Backers on Open Collective](https://opencollective.com/react-native-qrcode-scanner/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/react-native-qrcode-scanner/sponsors/badge.svg)](#sponsors)
-
-A QR code scanner component for React Native built on top of [react-native-camera by Lochlan Wansbrough](https://github.com/lwansbrough/react-native-camera)
+A QR code scanner component for React Native built on top of [react-native-nest-camera by Nguyen Phuc Bao Chau](https://github.com/chaudev/react-native-nest-camera)
 
 Please note, this will also function as a generic barcode scanner by the virtue of the above module supporting barcode scanning, however, this module was initially built as a QR code scanner.
 
 This module was originally written because the author couldn't find a module that could be simply plugged into a project without requiring too much setup.
 
-Looking for active contributors. See [Contribution guide](https://github.com/moaazsidat/react-native-qrcode-scanner/blob/master/CONTRIBUTION.md) for more details.
+Looking for active contributors. See [Contribution guide](https://github.com/chaudev/react-native-nest-qrcode-scanner/blob/master/CONTRIBUTION.md) for more details.
 
 _**Please note**: Most of the support on debugging new issues, especially with Android, relies on the open source community. The project is on the look out for active contributors who want to maintain this library more rigorously._
 
@@ -64,10 +62,10 @@ If using an older version of this module with RCTCamera you will need to follow 
 
 **Versions of this library > 0.0.30 will not support react-native-camera versions less than 1.0.0.**
 
-### To install and start using react-native-qrcode-scanner:
+### To install and start using react-native-nest-qrcode-scanner:
 
-1. `npm install react-native-qrcode-scanner --save`
-2. `react-native link react-native-qrcode-scanner`
+1. `npm install react-native-nest-qrcode-scanner --save`
+2. `react-native link react-native-nest-qrcode-scanner`
 
 #### react-native-permissions
 
@@ -87,7 +85,7 @@ You may also need to reset your simulator data after adding those permissions `D
 
 ## Usage
 
-To use react-native-qrcode-scanner, `import` the `react-native-qrcode-scanner` module and use the `<QRCodeScanner />` tag. More usage examples can be seen under the `examples/` folder.
+To use react-native-nest-qrcode-scanner, `import` the `react-native-nest-qrcode-scanner` module and use the `<QRCodeScanner />` tag. More usage examples can be seen under the `examples/` folder.
 
 Here is an example of basic usage:
 
@@ -104,7 +102,7 @@ import {
   Linking
 } from 'react-native';
 
-import QRCodeScanner from 'react-native-qrcode-scanner';
+import QRCodeScanner from 'react-native-nest-qrcode-scanner';
 import { RNCamera } from 'react-native-camera';
 
 class ScanScreen extends Component {
@@ -224,7 +222,7 @@ default: `RNCamera.Constants.FlashMode.auto`
 
 **Flash modes**
 
-FYI: [react-native-camera/flashMode](https://github.com/react-native-community/react-native-camera/blob/master/docs/RNCamera.md#flashmode)
+FYI: [react-native-nest-camera/flashMode](https://github.com/chaudev/react-native-nest-camera/blob/master/docs/RNCamera.md#flashmode)
 
 - `RNCamera.Constants.FlashMode.off` turns it off.
 - `RNCamera.Constants.FlashMode.on` means camera will use flash in all photos taken.
@@ -347,24 +345,22 @@ Properties to be passed to the `Camera` component.
 
 This project exists thanks to all the people who contribute. We're immensely gratetful to everyone who has taken the time to submit pull requests, spent time debugging or filing issues.
 
-<a href="https://github.com/moaazsidat/react-native-qrcode-scanner/graphs/contributors"><img src="https://opencollective.com/react-native-qrcode-scanner/contributors.svg?width=890&button=false" /></a>
-
 ## Backers & Sponsors
 
-Most of the core contributors maintain this library, add new features, and review PRs in their free time. If you're using react-native-qrcode-scanner in a commercial app, or have found it to be valuable, [please considering backing or sponsoring the project on OpenCollective](https://opencollective.com/react-native-qrcode-scanner). Please note that you do not need to give any amount of money in order to use this library.
+Most of the core contributors maintain this library, add new features, and review PRs in their free time. If you're using react-native-nest-qrcode-scanner in a commercial app, or have found it to be valuable, [please considering backing or sponsoring the project on OpenCollective](https://opencollective.com/react-native-nest-qrcode-scanner). Please note that you do not need to give any amount of money in order to use this library.
 
 This is how the donations will be used:
 
-- Allow the core contributors to work on react-native-qrcode-scanner
+- Allow the core contributors to work on react-native-nest-qrcode-scanner
 - Thank contributors if they invested a large amount of time in contributing
 - Setup a contributor bounty program to encourage participation
 - Fees for money handling
 
 Thank you to all our backers & sponsors! 🙏
 
-[[Become a backer](https://opencollective.com/react-native-qrcode-scanner#backer)] [[Become a sponsor](https://opencollective.com/react-native-qrcode-scanner#sponsor)]
+[[Become a backer](https://opencollective.com/react-native-nest-qrcode-scanner#backer)] [[Become a sponsor](https://opencollective.com/react-native-nest-qrcode-scanner#sponsor)]
 
-<a href="https://opencollective.com/react-native-qrcode-scanner#backers" target="_blank"><img src="https://opencollective.com/react-native-qrcode-scanner/backers.svg?width=890"></a>
+<a href="https://opencollective.com/react-native-nest-qrcode-scanner#backers" target="_blank"><img src="https://opencollective.com/react-native-nest-qrcode-scanner/backers.svg?width=890"></a>
 
 Support this project by becoming a sponsor. Your logo will show up here with a link to your website.
 
@@ -385,6 +381,6 @@ See [LICENSE.md](LICENSE.md)
 
 ## Thanks
 
-Thanks to [Lochlan Wansbrough](https://github.com/lwansbrough) for the [react-native-camera module](https://github.com/lwansbrough/react-native-camera) which provided me with an awesome example of how to set up this module.
+Thanks to [Nguyen Phuc Bao Chau](https://github.com/chaudev/react-native-nest-camera) which provided me with an awesome example of how to set up this module.
 
 This QR code scanner was inspired by the QR code scanner within [Whatsapp](https://www.whatsapp.com/).

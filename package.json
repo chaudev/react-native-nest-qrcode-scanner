@@ -1,6 +1,6 @@
 {
-  "name": "react-native-qrcode-scanner",
-  "version": "1.5.5",
+  "name": "react-native-nest-qrcode-scanner",
+  "version": "1.0.0",
   "description": "A QR code scanner for React Native.",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moaazsidat/react-native-qrcode-scanner.git"
+    "url": "git+https://github.com/chaudev/react-native-nest-qrcode-scanner.git"
   },
   "keywords": [
     "react-native",
@@ -23,7 +23,7 @@
   "author": "Moaaz Sidat",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/moaazsidat/react-native-qrcode-scanner/issues"
+    "url": "https://github.com/chaudev/react-native-nest-qrcode-scanner/issues"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.13.4",
@@ -42,7 +42,7 @@
   "peerDependencies": {
     "react-native-camera": ">=1.0.2"
   },
-  "homepage": "https://github.com/moaazsidat/react-native-qrcode-scanner#readme",
+  "homepage": "https://github.com/chaudev/react-native-nest-qrcode-scanner#readme",
   "release": {
     "plugins": [
       "@semantic-release/commit-analyzer",
